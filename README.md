@@ -27,3 +27,6 @@ The FPM is divided into three main views allowing for the creation and opening o
 ### Settings
 
 ### Usage with Companion Browser Plugin
+
+# License
+The Foundation Password Manager is licensed under the BSD 3-Clause License. See [LICENSE](LICENSE) for more information. The assets folder contains images used for the visual stimuli during brainwave-based authentication. These images are taken from [Pexels.com](https://www.pexels.com/) and are licensed under the [Pexels License](https://www.pexels.com/license/). The images and more information on the license can be found [here](./assets/images/stimuli/info.txt).
