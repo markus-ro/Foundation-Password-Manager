@@ -104,6 +104,9 @@ msgstr "Did not copy empty"
 msgid "copy_clipboard_snack"
 msgstr "Copied to Clipboard"
 
+msgid "open_domain_sheet"
+msgstr "Open Domain"
+
 msgid "copy_username_sheet"
 msgstr "Copy Username"
 

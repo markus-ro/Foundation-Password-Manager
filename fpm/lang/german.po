@@ -104,6 +104,9 @@ msgstr "Leer kann nicht kopiert werden"
 msgid "copy_clipboard_snack"
 msgstr "In Zwischenablage kopiert"
 
+msgid "open_domain_sheet"
+msgstr "Link öffnen"
+
 msgid "copy_username_sheet"
 msgstr "Nutzernamen kopieren"
 

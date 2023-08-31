@@ -1,4 +1,5 @@
 import pyperclip
+import webbrowser
 from kivy.uix.screenmanager import Screen
 from kivymd.uix.bottomsheet import MDGridBottomSheet
 from kivymd.uix.list import OneLineListItem
@@ -86,6 +87,10 @@ class OverviewScreen(Screen):
     def show_bottom_sheet(self, instance):
         bottom_sheet_menu = MDGridBottomSheet()
         data = self.database_manager[int(instance.id)]
+        bottom_sheet_menu.add_item(
+            self.language["open_domain_sheet"],
+            lambda x: webbrowser.open(data.domain),
+            "web")
         bottom_sheet_menu.add_item(
             self.language["copy_username_sheet"],
             lambda x: self.__set_clipboard(
