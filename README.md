@@ -21,10 +21,15 @@ python fpm/main.py
 The FPM is divided into three main views allowing for the creation and opening of databases, the management of credentials, and the management of settings. By adhering to Material Design principles, the FPM is easy and straightforward to use.
 
 ### Opening and Creating Databases
+<img src="./assets/readme/start_screen.png" width="400">
+
+The Foundation Password Manager uses an propriaetary encrypted database format, which allows for the storage of arbitrary data (in this case brainwave templates) alongside the stored web credentials. The files are denoted with the file extension `.fpw`. Currently there is no way to create a database through the FPM itself. Instead an empty file with the aformentioned extention needs to be created. Once this is done, the file can be openend through the FPM using an arbitrary secret key. The secret key is used to encrypt the database file and is not stored anywhere. If the secret key is lost, the database file cannot be opened anymore. For more information on how the file is created and structured, see the respective [implementation](./fpm/lib/database.py).
 
 ### Managing Credentials
+<img src="./assets/readme/credentials_screen.png" width="400">
 
 ### Settings
+<img src="./assets/readme/settings_screen.png" width="400">
 
 ### Usage with Companion Browser Plugin
 
