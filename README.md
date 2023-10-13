@@ -8,6 +8,22 @@ Besides the brainwave-based authentication, the FPM offers all the features of a
 
 The FPM uses KivyMD as its GUI framework and is written and tested for Python 3.8 and above. Further, it has been tested on both Windows (10) and Linux (Mint Cinnamon/Mate). On Windows, the GUI takes a long time to load, which is a general problem of Python based GUIs on Windows. On Linux, some features like the file explorer for the database file selection are not working with some exotic window managers.
 
+This repository was partially created for the paper "Overcoming Theory: Designing Brainwave Authentication for the Real World" by Markus Röse, [Emiram Kablo](https://twitter.com/emikablo), and [Patricia Arias-Cabarcos](https://twitter.com/patriAriasC). The paper was presented at the [EuroUSEC 2023](https://eurousec23.itu.dk/) conference and can be found [here](https://doi.org/10.1145/3617072.3617120).
+
+If you use this repository, please cite the paper as follows:
+```
+@inproceedings{roese2023overcoming,
+  title={Overcoming Theory: Designing Brainwave Authentication for the Real World},
+  author={R\"ose, Markus and Kablo, Emiram and Arias-Cabarcos, Patricia},
+  booktitle={The 2023 European Symposium on Usable Security (EuroUSEC 2023)},
+  address={Copenhagen, Denmark},
+  publisher={ACM, New York, NY, USA},
+  month={October 16--17}
+  doi={110.1145/3617072.3617120},
+  year={2023}
+}
+```
+
 ## Setup
 You can use the Foundation Password Manager by cloning this repository:
 ```bash
