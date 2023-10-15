@@ -12,20 +12,20 @@ This repository was partially created for the paper "Overcoming Theory: Designin
 
 If you use this repository, please cite the paper as follows:
 ```
-@inproceedings{10.1145/3617072.3617120,
-author = {R\"{o}se, Markus and Kablo, Emiram and Arias-Cabarcos, Patricia},
-title = {Overcoming Theory: Designing Brainwave Authentication for the Real World},
-year = {2023},
-isbn = {9798400708145},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3617072.3617120},
-doi = {10.1145/3617072.3617120},
-booktitle = {Proceedings of the 2023 European Symposium on Usable Security},
-pages = {175–191},
-numpages = {17},
-location = {Copenhagen, Denmark},
-series = {EuroUSEC '23}
+@inproceedings{roese2023overcoming,
+    author = {R\"{o}se, Markus and Kablo, Emiram and Arias-Cabarcos, Patricia},
+    title = {Overcoming Theory: Designing Brainwave Authentication for the Real World},
+    year = {2023},
+    isbn = {9798400708145},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3617072.3617120},
+    doi = {10.1145/3617072.3617120},
+    booktitle = {Proceedings of the 2023 European Symposium on Usable Security},
+    pages = {175–191},
+    numpages = {17},
+    location = {Copenhagen, Denmark},
+    series = {EuroUSEC '23}
 }
 ```
 
